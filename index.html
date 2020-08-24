@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
   <header class="header">
     <div class="container">
       <nav class="nav-container">
@@ -49,7 +50,7 @@
   <section class="hero">
     <div class="container">
       <h1 class="h1-hero">Эффективные решения для вашего бизнеса</h1>
-      <button class="btn-hero">Заказать услугу</button>
+      <button onclick="myFunction()" class="btn-hero">Заказать услугу</button>
     </div>
   </section>
 
@@ -315,7 +316,17 @@
 
 
     </div>
+
+    <!-- Backdrop Modal -->
+    <div class="backdrop is-hidden" id="myId">
+      <div class="modal">
+        <button onclick="myFunction()" class=" close-btn">
+        </button>
+      </div>
+    </div>
   </footer>
+
+  <script src="/JS/modal.js"></script>
 </body>
 
 </html>
