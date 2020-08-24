@@ -58,6 +58,11 @@ span {
 }
 
 .link-nav {
+  display: inline-block;
+  height: 80px;
+  /* justify-self: center; */
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -66,6 +71,8 @@ span {
 
 .link-nav:hover {
   color: #2196f3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-nav.nav-contacts {
@@ -75,6 +82,8 @@ span {
 
 .nav-contacts:hover {
   color: #2196f3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Style Hero */
@@ -165,8 +174,9 @@ span {
 /* Header */
 
 .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  height: 80px;
+  /* padding-top: 25px;
+  padding-bottom: 25px; */
 }
 .container {
   width: 1200px;
@@ -176,13 +186,19 @@ span {
 }
 
 .nav-container {
+  align-items: center;
+  height: 80px;
   display: flex;
 }
 
 .ul-container {
+  height: 80px;
   display: flex;
   margin: auto;
   margin-left: 93px;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-items: center;
 }
 
 .ul-container > li:not(:first-child) {
@@ -192,8 +208,9 @@ span {
 .ul-contacts-container {
   display: flex;
   margin-left: 305px;
-  margin-top: auto;
-  margin-bottom: auto;
+  height: 80px;
+  /* margin-top: auto;
+  margin-bottom: auto; */
 }
 
 .ul-contacts-container > li:not(:first-child) {
@@ -382,6 +399,8 @@ span {
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Projects */
@@ -403,6 +422,8 @@ span {
 
 .card-style-portfolio:hover{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-style-portfolio:not(.last-3) {
@@ -459,18 +480,26 @@ span {
 
 .contacts-flex:hover .contacts-icon-mail{
   fill: #2196F3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-flex:hover .nav-contacts{
   color: #2196F3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-flex:hover .contacts-icon-phone{
   fill: #2196F3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-flex:hover .nav-contacts{
   color: #2196F3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-icon-mail{
@@ -511,10 +540,14 @@ margin-right: 10px;
 
 .soclink-style-hover:hover .soclink-bg{
   background-color: #2196f3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soclink-style-hover:hover .soclink{
   fill: #fff;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soclink-bg {
@@ -550,25 +583,39 @@ margin-right: 10px;
 }
 .clients-style-hover:hover .client-link{
   border-color: #2196f3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-style-hover:hover .client-icon1{
-  fill:#2196f3
+  fill:#2196f3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-style-hover:hover .client-icon2{
-  fill:#2196f3
+  fill:#2196f3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-style-hover:hover .client-icon3{
-  fill:#2196f3
+  fill:#2196f3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-style-hover:hover .client-icon4{
-  fill:#2196f3
+  fill:#2196f3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-style-hover:hover .client-icon5{
-  fill:#2196f3
+  fill:#2196f3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-style-hover:hover .client-icon6{
-  fill:#2196f3
+  fill:#2196f3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -659,4 +706,47 @@ margin-right: 10px;
 
 .footer-soclink-bg:hover{
   background-color: #2196F3;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* Homework 5 Position */
+
+.product-position{
+  position: relative;
+  width: 370px;
+  height: 294px;
+}
+.product-desc{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 370px;
+  padding: 27px 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: rgba(47, 48, 58, 0.8);
+ }
+
+
+ .link-nav.underline::after{
+  display: block;
+  content: '';
+ width: 100%;
+ height: 4px;
+ background: #2196F3;
+ border-radius: 2px;
+ margin-top: 28px;
+
+ }
+
+ .link-nav.link-studio,
+ .link-nav.link-portfolio
+  {
+   color: #2196F3;
+ }
