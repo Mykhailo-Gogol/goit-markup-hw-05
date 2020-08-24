@@ -143,7 +143,7 @@ span {
 /* Style Portfolio.html */
 
 .card-name-portfolio {
-  margin-top: 20px;
+  /* padding-top: 20px; */
   margin-bottom: 4px;
   padding: 0 24px;
   font-weight: 700;
@@ -411,13 +411,18 @@ span {
 }
 
 .img-contain {
-  width: 100%;
+  width: 370px;
 }
 
-.card-style-portfolio {
+
+
+.card-border {
+  padding-top: 20px;
   width: 370px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .card-style-portfolio:hover{
@@ -755,6 +760,8 @@ margin-right: 10px;
 
  .text-overlay{
    position: relative;
+   width: 370px;
+   height: 294px;
  } 
 
  .animation-overlay{
@@ -771,12 +778,13 @@ margin-right: 10px;
   padding: 63px 24px;
   color: #FFFFFF;
   background: rgba(33, 150, 243, 0.9);
+  pointer-events: none;
 }
 
 .card-style-portfolio:hover .animation-overlay{
   top: 0;
   left: 0;
-  opacity: 1;
+  opacity: 0.9;
   transition: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
