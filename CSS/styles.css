@@ -750,3 +750,33 @@ margin-right: 10px;
   {
    color: #2196F3;
  }
+
+ /* Animation Card Portfolio */
+
+ .text-overlay{
+   position: relative;
+ } 
+
+ .animation-overlay{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding: 63px 24px;
+  color: #FFFFFF;
+  background: rgba(33, 150, 243, 0.9);
+}
+
+.card-style-portfolio:hover .animation-overlay{
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
